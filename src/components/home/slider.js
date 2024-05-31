@@ -11,7 +11,7 @@ const Slider = () => {
                         backgroundImage: `url(${SliderImage})`, // Set background image
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        height: '500px'
+                        height: '450px'
                     }}
                 >
                 </Grid>

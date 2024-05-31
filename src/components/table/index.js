@@ -2,6 +2,9 @@ import { useState } from 'react';
 import Header from '../../ui-components/header'
 import './table.css'
 import { Grid, TableContainer, Table, TableHead, TableRow, TableCell, Typography, TableBody, Container, TablePagination } from '@mui/material'
+import Footer from "../../ui-components/footer"
+import Slider from '../home/slider'
+import NameSlider from '../../ui-components/nameSlider'
 
 const columns = [
     { id: '#', label: '#', minWidth: 100 },
@@ -52,10 +55,11 @@ const Home = () => {
     return (
         <>
             <Header />
-
+            {/* <NameSlider name="Job Details"/> */}
             <Grid>
                 <Container>
-                    <TableContainer>
+                    <Typography variant='h3' sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4}}>Job Details</Typography>
+                    <TableContainer sx={{mt: 2}}>
                         <Table>
                             <TableHead>
                                 <TableRow>
@@ -101,6 +105,8 @@ const Home = () => {
                     </TableContainer>
                 </Container>
             </Grid>
+
+            <Footer/>
         </>
     )
 }
