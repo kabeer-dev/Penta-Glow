@@ -15,9 +15,9 @@ const Footer = () => {
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20'}}>Mailing Address</Typography>
                     <Typography sx={{ color: '#553a20'}}>Superior University Sergodha Campus</Typography>
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20', mt: 1}}>Phone Number</Typography>
-                    <Typography sx={{ color: '#553a20'}}>0300-0000000</Typography>
+                    <Typography sx={{ color: '#553a20'}}>+92 3277329793</Typography>
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20', mt: 1}}>Email Address</Typography>
-                    <Typography sx={{ color: '#553a20'}}>example@gmail.com</Typography>
+                    <Typography sx={{ color: '#553a20'}}>haffsahaffsa801@gmail.com</Typography>
                 </Grid>
                 <Grid item xs={4} sx={{display: 'flex', justifyContent: "center"}}>
                     <Box component="img" src={LogoImage} sx={{height: '220px'}}/>
