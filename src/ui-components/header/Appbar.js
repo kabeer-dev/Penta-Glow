@@ -35,11 +35,12 @@ export default function ButtonAppBar() {
                                     />
                                 </IconButton>
                             </Grid>
-                            <Grid xs={6} sx={{ display: 'flex', alignContent: 'center', justifyContent: 'end'}}>
+                            <Grid xs={8} sx={{ display: 'flex', alignContent: 'center', justifyContent: 'end'}}>
                                 <Button color="inherit" onClick={() => navigate('/')} sx={{ color: '#efeee7' }}>Home</Button>
-                                <Button color="inherit" onClick={() => navigate('/team-members')} sx={{ color: '#efeee7', ml: 2 }}>Team</Button>
-                                <Button color="inherit" onClick={() => navigate('/job-details')} sx={{ color: '#efeee7', ml: 2 }}>Job Details</Button>
-                                <Button color="inherit" onClick={() => navigate('/certificate')} sx={{ color: '#efeee7', ml: 2 }}>Certificates</Button>
+                                <Button color="inherit" onClick={() => navigate('/team-members')} sx={{ color: '#efeee7', ml: 1 }}>Team</Button>
+                                <Button color="inherit" onClick={() => navigate('/job-details')} sx={{ color: '#efeee7', ml: 1 }}>Job Details</Button>
+                                <Button color="inherit" onClick={() => navigate('/certificate')} sx={{ color: '#efeee7', ml: 1 }}>Certificates</Button>
+                                <Button color="inherit" onClick={() => navigate('/financial-statements')} sx={{ color: '#efeee7', ml: 1 }}>Financial Statments</Button>
                             </Grid>
                         </Grid>
                     </Toolbar>

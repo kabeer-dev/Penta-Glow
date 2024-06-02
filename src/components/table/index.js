@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Header from '../../ui-components/header'
-import './table.css'
 import { Grid, TableContainer, Table, TableHead, TableRow, TableCell, Typography, TableBody, Container, TablePagination } from '@mui/material'
 import Footer from "../../ui-components/footer"
 import Slider from '../home/slider'
