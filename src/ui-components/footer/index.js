@@ -13,7 +13,7 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={4} sx={{justifyContent: "center", lineHeight: 3}}>
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20'}}>Mailing Address</Typography>
-                    <Typography sx={{ color: '#553a20'}}>Superior University Sergodha Campus</Typography>
+                    <Typography sx={{ color: '#553a20'}}>Superior University Sargodha Campus</Typography>
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20', mt: 1}}>Phone Number</Typography>
                     <Typography sx={{ color: '#553a20'}}>+92 3277329793</Typography>
                     <Typography variant="h6" sx={{fontWeight: '600', color: '#553a20', mt: 1}}>Email Address</Typography>
