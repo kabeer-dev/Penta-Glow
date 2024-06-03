@@ -226,7 +226,7 @@ const FinancialStatment = () => {
                 </Container>
 
                 <Container sx={{mt: 10}}>
-                    <Typography variant='h4' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4 }}>Penta Glow Balance Sheet as of year ended</Typography>
+                    <Typography variant='h3' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4 }}>Balance Sheet</Typography>
                     <TableContainer sx={{ mt: 2 }}>
                         <Table>
                             <TableHead>
