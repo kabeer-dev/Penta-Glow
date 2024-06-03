@@ -207,7 +207,7 @@ const FinancialStatment = () => {
                                         <Typography sx={{ fontWeight: 600 }}>Net Income</Typography>
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
-                                        <Typography sx={{ fontWeight: 600 }}>150,000</Typography>
+                                        <Typography sx={{ fontWeight: 600 }}>180,000</Typography>
                                     </TableCell>
                                 </TableRow>
 
@@ -230,7 +230,7 @@ const FinancialStatment = () => {
                     <TableContainer sx={{ mt: 2 }}>
                         <Table>
                             <TableHead>
-                                <TableRow>
+                                <TableRow sx={{borderBottom: '2px solid black'}}>
                                     <TableCell
                                         sx={{ py: 3, textAlign: 'center', fontWeight: '900 !important' }}
                                         // align={column.align}
@@ -338,7 +338,7 @@ const FinancialStatment = () => {
                                     </TableCell>
                                 </TableRow>
 
-                                <TableRow sx={{ py: 3 }} hover role="checkbox" tabIndex={-1}>
+                                <TableRow sx={{ py: 3, borderBottom: '2px solid black'}} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography>4</Typography>
                                     </TableCell>
@@ -356,9 +356,9 @@ const FinancialStatment = () => {
                                     </TableCell>
                                 </TableRow>
 
-                                <TableRow sx={{ py: 3, borderTop: "2px solid black", borderBottom: "2px solid black"}} hover role="checkbox" tabIndex={-1}>
+                                {/* <TableRow sx={{ py: 3, borderTop: "2px solid black", borderBottom: "2px solid black"}} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
-                                        {/* <Typography>1</Typography> */}
+                                     
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography sx={{fontWeight: 600}}>Total</Typography>
@@ -372,7 +372,7 @@ const FinancialStatment = () => {
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography sx={{fontWeight: 600}}>300,000</Typography>
                                     </TableCell>
-                                </TableRow>
+                                </TableRow> */}
 
                                 <TableRow sx={{ py: 3 }} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
@@ -407,9 +407,9 @@ const FinancialStatment = () => {
                                     </TableCell>
                                 </TableRow>
 
-                                <TableRow sx={{ py: 3 }} hover role="checkbox" tabIndex={-1}>
+                                <TableRow sx={{ py: 3, borderBottom: '2px solid black' }} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
-                                        <Typography>4</Typography>
+                                        <Typography>2</Typography>
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography>Furniture</Typography>
@@ -425,9 +425,9 @@ const FinancialStatment = () => {
                                     </TableCell>
                                 </TableRow>
 
-                                <TableRow sx={{ py: 3, borderTop: "2px solid black" }} hover role="checkbox" tabIndex={-1}>
+                                {/* <TableRow sx={{ py: 3, borderTop: "2px solid black" }} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
-                                        {/* <Typography>1</Typography> */}
+                                        
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography sx={{fontWeight: 600}}>Total</Typography>
@@ -441,9 +441,27 @@ const FinancialStatment = () => {
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography sx={{fontWeight: 600}}>200,000</Typography>
                                     </TableCell>
-                                </TableRow>
+                                </TableRow> */}
 
-                                <TableRow sx={{ py: 3, borderTop: "2px solid black", borderBottom: "2px solid black"}} hover role="checkbox" tabIndex={-1}>
+                                {/* <TableRow sx={{ py: 3, borderTop: "2px solid black", borderBottom: "2px solid black"}} hover role="checkbox" tabIndex={-1}>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                     
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                      
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                       
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        <Typography sx={{fontWeight: 600}}>Total</Typography>
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        <Typography sx={{fontWeight: 600}}>500,000</Typography>
+                                    </TableCell>
+                                </TableRow> */}
+
+                                <TableRow sx={{ py: 3}} hover role="checkbox" tabIndex={-1}>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         {/* <Typography>1</Typography> */}
                                     </TableCell>
@@ -454,10 +472,46 @@ const FinancialStatment = () => {
                                         {/* <Typography sx={{fontWeight: 600}}>650,000</Typography> */}
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
-                                        <Typography sx={{fontWeight: 600}}>Total</Typography>
+                                        <Typography sx={{fontWeight: 600}}>Equity</Typography>
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography sx={{fontWeight: 600}}>500,000</Typography> */}
+                                    </TableCell>
+                                </TableRow>
+
+                                <TableRow sx={{ py: 3}} hover role="checkbox" tabIndex={-1}>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        <Typography>1</Typography>
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography sx={{fontWeight: 600}}>Total</Typography> */}
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography sx={{fontWeight: 600}}>650,000</Typography> */}
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        <Typography sx={{fontWeight: 600}}>Owner Equity</Typography>
                                     </TableCell>
                                     <TableCell sx={{ textAlign: 'center' }}>
                                         <Typography sx={{fontWeight: 600}}>500,000</Typography>
+                                    </TableCell>
+                                </TableRow>
+
+                                <TableRow sx={{ py: 3, borderTop: "2px solid black", borderBottom: "2px solid black"}} hover role="checkbox" tabIndex={-1}>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography>1</Typography> */}
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography sx={{fontWeight: 600}}>Total</Typography> */}
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        <Typography sx={{fontWeight: 600}}>1000000</Typography>
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                        {/* <Typography sx={{fontWeight: 600}}>Owner Equity</Typography> */}
+                                    </TableCell>
+                                    <TableCell sx={{ textAlign: 'center' }}>
+                                    <Typography sx={{fontWeight: 600}}>1000000</Typography>
                                     </TableCell>
                                 </TableRow>
 
