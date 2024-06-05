@@ -27,7 +27,7 @@ const Gallery = () => {
             <Typography variant='h4' sx={{textAlign: 'center', color: "#553a20", fontWeight: '600'}}>Gallery</Typography>
                 <Grid container sx={{mt: 2}} spacing={2}>
                     {galleryData.map((data, index) => (
-                        <Grid item xs={4} key={index}>
+                        <Grid item xs={12} sm={6} md={4} key={index}>
                             <Box component="img" src={data.image} sx={{width: '100%', height: '300px'}}/>
                         </Grid>
                     ))}

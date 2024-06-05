@@ -14,14 +14,14 @@ const Certificate = (props) => {
             {/* <Slider/> */}
             <Container sx={{mt: 5}}>
                 <Grid container spacing={2}>
-                    <Grid item xs={6}>
-                        <Box component="img" src={Certificate_1} sx={{width: '100%', height: '400px'}}/>
+                    <Grid item md={6} xs={12}>
+                        <Box component="img" src={Certificate_1} sx={{width: '100%', height: {md: '400px' , xs: '100%'}}}/>
                     </Grid>
-                    <Grid item xs={6}>
-                        <Box component="img" src={Certificate_2} sx={{width: '100%', height: '400px'}}/>
+                    <Grid item md={6} xs={12}>
+                        <Box component="img" src={Certificate_2} sx={{width: '100%', height: {md: '400px' , xs: '100%'}}}/>
                     </Grid>
-                    <Grid item xs={6}>
-                        <Box component="img" src={Certificate_3} sx={{width: '100%', height: '400px'}}/>
+                    <Grid item md={6} xs={12}>
+                        <Box component="img" src={Certificate_3} sx={{width: '100%', height: {md: '400px' , xs: '100%'}}}/>
                     </Grid>
                 </Grid>
             </Container>

@@ -19,10 +19,10 @@ const Products = () => {
             <Typography variant='h4' sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4}}>What We Offer</Typography>
                 <Grid container sx={{mt: 3}} spacing={2}>
                     {productData.map((product, index) => (
-                        <Grid item xs={3} key={index}>
-                            <Box component="img" src={product.image}/>
-                            <Typography variant="h6" sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 2}}>{product.name}</Typography>
-                            <Typography sx={{textAlign: 'center', color: "#553a20", px: 3}}>{product.description}</Typography>
+                        <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                            <Box component="img" src={product.image} sx={{width: '100%'}}/>
+                            <Typography sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 2, fontSize: {lg:'22px', md: '18px', sm: '16px', xs: '14px'}}}>{product.name}</Typography>
+                            <Typography sx={{textAlign: 'center', color: "#553a20", px: 3, fontSize: {lg:'16px', md: '12px', sm: '12px', xs: '10px'}}}>{product.description}</Typography>
                         </Grid>
                     ))}
                 </Grid>

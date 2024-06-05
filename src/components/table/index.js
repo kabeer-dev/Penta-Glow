@@ -57,7 +57,7 @@ const Home = () => {
             {/* <NameSlider name="Job Details"/> */}
             <Grid>
                 <Container>
-                    <Typography variant='h3' sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4}}>Job Details</Typography>
+                    <Typography variant='h3' sx={{textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4, fontSize: {md: '40px', xs: '28px'} }}>Job Details</Typography>
                     <TableContainer sx={{mt: 2}}>
                         <Table>
                             <TableHead>

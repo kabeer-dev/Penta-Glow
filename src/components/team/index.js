@@ -22,7 +22,7 @@ const Team = () => {
                     //     height: "1000px"
                     // }}
                     >
-                        <Box component="img" src={TeamImage}/>
+                        <Box component="img" src={TeamImage} sx={{width: '100%'}}/>
                     </Grid>
                 </Grid>
            

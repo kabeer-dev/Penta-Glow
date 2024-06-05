@@ -57,7 +57,7 @@ const FinancialStatment = () => {
             {/* <NameSlider name="Job Details"/> */}
             <Grid>
                 <Container>
-                    <Typography variant='h3' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4 }}>Income Statement</Typography>
+                    <Typography variant='h3' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4,  fontSize: {md: '40px', xs: '28px'} }}>Income Statement</Typography>
                     <TableContainer sx={{ mt: 2 }}>
                         <Table>
                             <TableHead>
@@ -226,7 +226,7 @@ const FinancialStatment = () => {
                 </Container>
 
                 <Container sx={{mt: 10}}>
-                    <Typography variant='h3' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4 }}>Balance Sheet</Typography>
+                    <Typography variant='h3' sx={{ textAlign: 'center', color: "#553a20", fontWeight: '600', mt: 4,  fontSize: {md: '40px', xs: '28px'} }}>Balance Sheet</Typography>
                     <TableContainer sx={{ mt: 2 }}>
                         <Table>
                             <TableHead>

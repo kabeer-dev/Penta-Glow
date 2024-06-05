@@ -20,7 +20,7 @@ export default function ButtonAppBar() {
                 <Container>
                     <Toolbar>
                         <Grid container sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                            <Grid xs={3}>
+                            <Grid sm={3} xs={12}>
                                 <IconButton
                                     size="large"
                                     edge="start"
@@ -31,16 +31,16 @@ export default function ButtonAppBar() {
                                     <Box
                                         component="img"
                                         src={SmallLogo}
-                                    // sx={{width: '50px', height: '50px'}}
+                                        sx={{width: '100%'}}
                                     />
                                 </IconButton>
                             </Grid>
-                            <Grid xs={8} sx={{ display: 'flex', alignContent: 'center', justifyContent: 'end'}}>
-                                <Button color="inherit" onClick={() => navigate('/')} sx={{ color: '#efeee7' }}>Home</Button>
-                                <Button color="inherit" onClick={() => navigate('/team-members')} sx={{ color: '#efeee7', ml: 1 }}>Team</Button>
-                                <Button color="inherit" onClick={() => navigate('/job-details')} sx={{ color: '#efeee7', ml: 1 }}>Job Details</Button>
-                                <Button color="inherit" onClick={() => navigate('/certificate')} sx={{ color: '#efeee7', ml: 1 }}>Certificates</Button>
-                                <Button color="inherit" onClick={() => navigate('/financial-statements')} sx={{ color: '#efeee7', ml: 1 }}>Financial Statments</Button>
+                            <Grid sm={9} xs={12} sx={{ display: 'flex', alignContent: 'center', justifyContent: 'end'}}>
+                                <Button color="inherit" onClick={() => navigate('/')} sx={{ color: '#efeee7', fontSize: {md:'16px', sm: '11px', xs:'8px'} }}>Home</Button>
+                                <Button color="inherit" onClick={() => navigate('/team-members')} sx={{ color: '#efeee7', ml: 1, fontSize: {md:'16px', sm: '11px', xs:'8px'}  }}>Team</Button>
+                                <Button color="inherit" onClick={() => navigate('/job-details')} sx={{ color: '#efeee7', ml: 1, fontSize: {md:'16px', sm: '11px', xs:'8px'}  }}>Job Details</Button>
+                                <Button color="inherit" onClick={() => navigate('/certificate')} sx={{ color: '#efeee7', ml: 1, fontSize: {md:'16px', sm: '11px', xs:'8px'}  }}>Certificates</Button>
+                                <Button color="inherit" onClick={() => navigate('/financial-statements')} sx={{ color: '#efeee7', ml: 1, fontSize: {md:'16px', sm: '11px', xs:'8px'}  }}>Financial Statments</Button>
                             </Grid>
                         </Grid>
                     </Toolbar>
